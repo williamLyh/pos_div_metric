@@ -53,7 +53,6 @@ def predict_sentence_discourse(data, batch_size=16):
         class_score = torch.softmax(outputs.logits, dim=-1)
         class_prediction = torch.argmax(class_score, dim=-1)
         labels_pred += class_prediction.cpu().tolist()
-
     return labels_pred
 
 
@@ -143,21 +142,6 @@ def calculate_positional_divergence(predictions: List[List[int]], references: Li
         normalized_pos_div = 1/(1+pos_div)
         return normalized_pos_div
     return pos_div
-
-
-# def split_into_sentences(text):
-#     """
-#     Splits a multi-sentence string into a list of sentences.
-
-#     Args:
-#         text (str): The multi-sentence string to be split.
-
-#     Returns:
-#         list: A list of sentences.
-#     """
-#     # Split the text into sentences using regular expressions
-#     sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s', text)
-#     return sentences
 
 
 def sentence_splitter(text_doc, flat=False):
