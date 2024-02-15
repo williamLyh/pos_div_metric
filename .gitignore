@@ -5,6 +5,8 @@
 *.pkl
 *.html
 data/
+openai_utils.py
+chatgpt_eval.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
