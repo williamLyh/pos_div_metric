@@ -1,3 +1,7 @@
+<p align="center">
+<img src="asset/icon.png" alt="Alt Text" width="200px" height="200px">
+</p>
+
 # PDD: Positional Discourse Divergence
 This is the code repo for paper [**Unlocking Structure Measuring: Introducing PDD, an Automatic Metric for Positional Discourse Coherence**](https://arxiv.org/abs/2402.10175).
 
