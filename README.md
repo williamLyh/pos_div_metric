@@ -26,4 +26,14 @@ PDD = calculate_positional_divergence(
 ```
 
 ## Citation
-
+Preprint version
+```
+@misc{liu2024unlocking,
+      title={Unlocking Structure Measuring: Introducing PDD, an Automatic Metric for Positional Discourse Coherence}, 
+      author={Yinhong Liu and Yixuan Su and Ehsan Shareghi and Nigel Collier},
+      year={2024},
+      eprint={2402.10175},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
