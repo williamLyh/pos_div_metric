@@ -3,7 +3,7 @@
 </p>
 
 # PDD: Positional Discourse Divergence
-This is the code repo for paper [**Unlocking Structure Measuring: Introducing PDD, an Automatic Metric for Positional Discourse Coherence**](https://arxiv.org/abs/2402.10175).
+This is the code repo for paper [**Unlocking Structure Measuring: Introducing PDD, an Automatic Metric for Positional Discourse Coherence**](https://arxiv.org/abs/2402.10175). This work is accepted by NAACL 2024 main conference.
 
 ## What's PDD
 PDD is a novel automatic metric designed to quantify the **discourse divergence** between two long-form articles.
